@@ -36,8 +36,16 @@ section {
 
 .container {
     width: 100%;
-    max-width: 980px;
+    max-width: 892px;
     margin: auto;
+    padding: 0 20px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -183,13 +191,6 @@ header.nav-scrolled nav ul li a:hover {
     height: auto;
 }
 
-.about .container .row {
-    display: flex;
-    flex-direction: row;    
-    align-items: center;
-    justify-content: center;
-}
-
 .about h1 {
     font-family: 'Exo', sans-serif !important;
     font-size: 2.1rem !important;
@@ -205,6 +206,8 @@ header.nav-scrolled nav ul li a:hover {
     font-weight: 900px;
 }
 
+
+
 .about p {
     font-size: 2.1rem;
     line-height: 3.7rem;
@@ -216,10 +219,6 @@ header.nav-scrolled nav ul li a:hover {
 .about p span {
     color: #0D93EE;
     font-weight: 500;  
-}
-
-.about img {
-    margin-top: 100px;
 }
 
 .about .skills {
@@ -274,9 +273,14 @@ margin-top: 80px;
 
 .portfolio .container .cards-portfolio .card-portfolio {  
     width: 100%;
-    max-width: 246px;
+    max-width: 100%;
     flex: 1 1 246px;
     margin-bottom: 50px;
+    text-align: center;
+}
+
+.portfolio .container .cards-portfolio .card-portfolio img {
+    padding: 10px 10px 20px 10px;
 }
 
 .portfolio .container .cards-portfolio .card-portfolio a, 
@@ -284,11 +288,9 @@ margin-top: 80px;
     display: block;
     
     color: #fff;
+    font-size: 1.8rem;
     font-weight: 500;
-    text-align: center;
     text-decoration: none;
-    
-    padding: 10px;
 }
 
 
@@ -344,7 +346,7 @@ margin-top: 80px;
 }
 
 .services .container .cards-services .card-services p {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     line-height: 3rem;
     font-weight: 300;
 
@@ -439,14 +441,42 @@ footer h1 {
 }
 
 
+
+
+
+
+
+
+
 /* MEDIA QUERYS */
+
+/* 768px */
 @media (max-width: 768px) {
     html {
-        font-size: 50%;
+        font-size: 80%;
     }
-}
 
-@media (max-width: 540px) {
+    h1{
+        margin-bottom: 50px;
+    }
+
+    .flex-row{   
+        flex-direction: column;
+    }
+
+    .services .container .cards-services .card-services {
+        max-width: 100%;
+        margin: 25px 0;
+    }
+
+    .about p {
+        margin-top: 15px;
+    }
+
+    .about .skills {
+        margin-top: 15px;
+    } 
+
     nav {
         display: none;
     }

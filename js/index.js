@@ -29,7 +29,9 @@ menuToggle.addEventListener("click", () => {
     menuSection.classList.toggle("on")
     show = !show
 })
-  
+
+
+// smooth scroll sections | when menu click
 document.querySelectorAll("a[href^=\"#\"]").forEach((anchor) => {
     anchor.addEventListener("click", function (ev) {
       ev.preventDefault();
