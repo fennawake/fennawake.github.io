@@ -562,4 +562,12 @@ footer h1 {
         max-width: 100%;
         margin: 25px 0;
     }
+
+    .contact .container h1.email img {
+        display: none;
+    }
+
+    .contact .container h1.email span {
+        font-size: 2.9rem;
+    }
 }
