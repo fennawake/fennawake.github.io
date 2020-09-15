@@ -460,23 +460,6 @@ footer h1 {
         margin-bottom: 50px;
     }
 
-    .flex-row{   
-        flex-direction: column;
-    }
-
-    .services .container .cards-services .card-services {
-        max-width: 100%;
-        margin: 25px 0;
-    }
-
-    .about p {
-        margin-top: 15px;
-    }
-
-    .about .skills {
-        margin-top: 15px;
-    } 
-
     nav {
         display: none;
     }
@@ -547,5 +530,31 @@ footer h1 {
         font-size: 3rem;
         line-height: 4rem;
         display: block;
+    }
+
+    .flex-row{   
+        flex-direction: column;
+    }
+
+    .hero h1 {
+        font-size: 3.2rem;
+        line-height: 5.2rem;
+    }
+    
+    .hero h3 {
+        font-size: 1.7rem;
+    }
+
+    .about p {
+        margin-top: 15px;
+    }
+
+    .about .skills {
+        margin-top: 15px;
+    } 
+
+    .services .container .cards-services .card-services {
+        max-width: 100%;
+        margin: 25px 0;
     }
 }
