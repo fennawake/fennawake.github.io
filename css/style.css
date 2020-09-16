@@ -206,8 +206,6 @@ header.nav-scrolled nav ul li a:hover {
     font-weight: 900px;
 }
 
-
-
 .about p {
     font-size: 2.1rem;
     line-height: 3.7rem;
@@ -237,6 +235,8 @@ margin-top: 80px;
 
 .about .skills img {
     margin: 0;
+    /* width: 64px;
+    height: 64px; */
 }
 
 
@@ -557,6 +557,11 @@ footer h1 {
     .about .skills {
         margin-top: 15px;
     } 
+
+    .about .skills img {
+        width: 64px;
+        height: 64px;
+    }
 
     .services .container .cards-services .card-services {
         max-width: 100%;
