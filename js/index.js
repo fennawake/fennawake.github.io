@@ -17,18 +17,18 @@ window.onscroll = function() {
 
 
 // toggle menu
-let show = true
+// let show = true
 
-const menuSection = document.querySelector(".menu-section")
-const menuToggle = menuSection.querySelector(".menu-toggle")
+// const menuSection = document.querySelector(".menu-section")
+// const menuToggle = menuSection.querySelector(".menu-toggle")
 
-menuToggle.addEventListener("click", () => {    
+// menuToggle.addEventListener("click", () => {    
     
-    document.body.style.overflow = show ? "hidden" : "initial"
+//     document.body.style.overflow = show ? "hidden" : "initial"
 
-    menuSection.classList.toggle("on")
-    show = !show
-})
+//     menuSection.classList.toggle("on")
+//     show = !show
+// })
 
 
 // smooth scroll sections | when menu click
