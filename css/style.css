@@ -552,6 +552,7 @@ footer h1 {
     .about p {
         margin-top: 15px;
         text-align: justify;
+        font-size: 1.9rem;
     }
 
     .about .skills {
